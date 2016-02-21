@@ -1,0 +1,17 @@
+Installation 
+
+1. mkdir /tmp/SMPPClient
+2. cppy file to directory /tmp/SMPPClient 
+3. check perl path in server
+4. vi SMPPClient.pl 
+   change line 122 and 123 for bind username and password
+5. vi SMPPClient , change ip address and port number base on SMSC configuration
+6. chmod +x SMPPClient.pl
+
+
+Test : 
+
+Usage : ./SMPPClient.pl SMPPClient.cfg 886911514571 886936453016 'Test  11'
+
+or 
+Usage : perl SMPPClient.pl SMPPClient.cfg 886911514571 886936453016 'Test SMS abc'
